@@ -43,10 +43,11 @@
 17.    cd / - to shift to root user 
 
 18.    mkdir - to make a directory
-    
+
+19.    rmdir - used to remove empty directory
 
     
 
 
 
-19.    rmdir - used to remove an empty directory
+
