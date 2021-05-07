@@ -47,7 +47,40 @@
 19.    rmdir - used to remove empty directory
 
     
+types of directories :-
+
+     1./bin - this is the directory that command & some of the applications and programs you can run.
+
+     2./boot - it contains the boot files that are required to start device.
+
+     3./dev - device files are stored in this directory likewise if hard disk or other devices are monuted then information about that mounted device will be stored here.
+
+     4./etc - in /etc directory the system configuration is present.
+
+
+     5./lib - this /lib directory will provide libraries for the commands.
+
+     6./media - it is the directory where the external storage will be mounted when plugged in.
+
+     7./mnt - directory where we maunally mount storage or partitions.
+
+     8./opt - acts like extra hard disk
+
+     9./proc - it is the virtual directory which stores the information of CPU & Kernel process.
+
+     10./root - known as the home directory of the Administrator .
+
+     11./temp - directory used when system boots and you need to use temp space
+
+     12./usr - contains unique system resources 
+
+     13./var - used to store data that changes frequently.
 
 
 
 
+ 
+
+ 
+
+ 
