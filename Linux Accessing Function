@@ -33,3 +33,17 @@ The third set of three characters (rwx) is for the All Users permissions.
 Following that grouping since the integer/number displays the number of hardlinks to the file.
 
 The last piece is the Owner and Group assignment formatted as Owner:Group.
+
+
+The Permission Types that are used are:
+
+r - Read
+
+w - Write
+
+x - Execute
+
+So for an example, lets say I have a file named file1 that currently has the permissions set to _rw_rw_rw, 
+which means that the owner, group and all users have read and write permission.
+Now we want to remove the read and write permissions from the all users group.
+
