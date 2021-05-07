@@ -1,0 +1,52 @@
+
+1.2 Basic Commands -
+1.    pwd - pwd stands for present working directory used to get information about current directory
+
+2.    cd  - it is used for changing the directory 
+
+3.    ls  - used to list the files present in the current directory 
+
+4.    touch file_name - to create file name 
+
+5.                      Example, touch myfile.txt - it will create the text file with name of myfile
+
+                        echo "hello" >> filename.txt - this will insert text 'hello' in the given file
+
+6.    cat file_name - used to display content of the given file
+
+                      Example, set filename.txt
+
+                      Output =>  hello
+
+7.    cp -r - used to copy all files recursively.
+
+8.    mv - to rename the file 
+
+9.         Example,  mv filename.txt myfile.txt
+
+10.   rm - to remove files
+
+11.   head - to get info about top files instead of all files
+
+           Example, ls |head -5 => it will list down top 5 files
+
+12.    tail - similar as head but instead of top files it will list down last files 
+
+13.    ping - used to check the working of the network
+
+14.    top  - it is used to get the usage of CPU 
+
+15.    uname - this command will give you the the current version of Linux that you are using 
+
+16.    vi - a text editor basically.After opening vi press i to perform the insert operation then press ESCAPE to return to the command line then type wq to save and exit 
+
+17.    cd / - to shift to root user 
+
+18.    mkdir - to make a directory
+    
+
+    
+
+
+
+19.    rmdir - used to remove an empty directory
