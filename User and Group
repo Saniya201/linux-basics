@@ -1,0 +1,33 @@
+Linux is a multi-user operating system, 
+which means that more than one user can use Linux at the same time.
+Linux provides a beautiful mechanism to manage users in a system. 
+One of the most important roles of a system administrator is to manage the users and groups in a system. 
+All the commands used in this article are explained using the CentOS Linux distro.
+
+There are two types of users – the root or super user and normal users. 
+A root or super user can access all the files, while the normal user has limited access to files. 
+A super user can add, delete and modify a user account.
+
+Linux group is a mechanism to organise a collection of users.
+Like the user ID, each group is also associated with a unique ID called the group ID. 
+There are two types of groups
+
+ – a primary group and a supplementary group. 
+ Each user is a member of a primary group and of zero or ‘more than zero’ supplementary groups.
+ 
+ 
+Commonds:-
+
+adduser: add a user to the system.
+
+userdel: delete a user account and related files.
+
+addgroup: add a group to the system.
+
+delgroup: remove a group from the system.
+
+usermod: modify a user account.
+
+chage: change user password expiry information.
+
+sudo: run one or more commands as another user
