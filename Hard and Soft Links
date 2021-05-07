@@ -1,0 +1,22 @@
+A link in UNIX is a pointer to a file.  Creating links is a kind of shortcuts to access a file. Links allow more than one file name to refer to the same file, elsewhere. 
+
+There are two types of links :
+
+1) Hard Links
+
+2) Sift Links
+
+
+soft link is an actual link to the original file, 
+whereas a hard link is a mirror copy of the original file. 
+If you delete the original file, the soft link has no value, because it points to a non-existent file.
+
+1) Hard links:
+
+ creating a hard link:  $ ln file.txt hardlink.txt
+
+2) Soft Links :
+
+  Command to create a soft link:  $ ln -s file.txt softlink.txt
+  
+  soft link is an actual link to the original file, whereas a hard link is a mirror copy of the original file. If you delete the original file, the soft link has no value, because it points to a non-existent file.
