@@ -1,0 +1,35 @@
+Linux accessing function:
+
+Although there are already a lot of good security features built into Linux-based systems,
+one very important potential vulnerability can exist when local access is granted that is file permission based issues resulting from a user not assigning the correct permissions to files and directories.
+
+
+Permission Types:
+
+Each file or directory has three basic permission types:
+
+read - The Read permission refers to a user's capability to read the contents of the file.
+
+write - The Write permissions refer to a user's capability to write or modify a file or directory.
+
+execute - The Execute permission affects a user's capability to execute a file or view the contents of a directory.
+
+Viewing the Permissions
+
+You can view the permissions by checking the file or directory permissions in your favorite GUI File Manager (which I will not cover here) or by reviewing the output of the \"ls -l\" command while in the terminal and while working in the directory which contains the file or folder.
+
+The permission in the command line is displayed as: _rwxrwxrwx 1 owner:group
+
+User rights/Permissions
+
+The first character that I marked with an underscore is the special permission flag that can vary.
+
+The following set of three characters (rwx) is for the owner permissions.
+
+The second set of three characters (rwx) is for the Group permissions.
+
+The third set of three characters (rwx) is for the All Users permissions.
+
+Following that grouping since the integer/number displays the number of hardlinks to the file.
+
+The last piece is the Owner and Group assignment formatted as Owner:Group.
