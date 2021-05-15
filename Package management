@@ -1,0 +1,59 @@
+
+Introduction:
+
+package management is a method of installing and maintaining (which includes updating and probably removing as well) software on the system.
+In the early days of Linux, programs were only distributed as source code, along with the required man pages, the necessary configuration files, and more. 
+
+
+    dpkg :
+
+				dpkg is a low-level package manager for Debian-based systems. 
+
+				It can install, remove, provide information about and build *.deb packages but it can’t automatically download
+
+				and install their corresponding dependencies.									
+
+		apt-get :
+
+				apt-get is a high-level package manager for Debian and derivatives, and provides a simple way to retrieve and install packages,
+
+				including dependency resolution, from multiple sources using the command line. 
+
+				Unlike dpkg, apt-get does not work directly with *.deb files, but with the package proper name.
+
+			aptitude :
+
+				aptitude is another high-level package manager for Debian-based systems, and can be used to perform management tasks
+
+				(installing, upgrading, and removing packages, also handling dependency resolution automatically) in a fast and easy way. 
+
+				It provides the same functionality as apt-get and additional ones, such as offering access to several versions of a package.
+
+			rpm :
+
+				rpm is the package management system used by Linux Standard Base (LSB)-compliant distributions for low-level handling of packages. 
+
+				Just like dpkg, it can query, install, verify, upgrade, and remove packages, and is more frequently used by Fedora-based distributions, such as RHEL and CentOS.
+
+			yum :
+
+				yum adds the functionality of automatic updates and package management with dependency management to RPM-based systems.
+
+				As a high-level tool, like apt-get or aptitude, yum works with repositories.
+
+				
+Commands for Package Management :
+
+- To view the package details :- yum info PACKAGENAME
+
+- Install a package :- yum install PACKAGENAME
+
+- Update all packages :- yum update
+
+- Remove a package :- yum remove PACKAGENAME
+
+- To view transaction history :- yum remove PACKAGENAME
+
+- To reverse a transaction :- yum history undo INDEXNUMBER
+
+
