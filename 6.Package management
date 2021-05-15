@@ -56,4 +56,26 @@ Commands for Package Management :
 
 - To reverse a transaction :- yum history undo INDEXNUMBER
 
+Yum Repository :
 
+                 A YUM repository is a repository meant for holding and managing RPM Packages. It supports clients such as yum and zypper used by popular Unix systems such as RHEL and CentOS for managing binary packages. 
+
+Artifactory is a fully-fledged RPM and YUM repository manager allowing you to integrate YUM packaging management into your organization and to your CI/CD software development flows.
+
+It enables:  RPM metadata calculation for RPMs hosted in Artifactory local repositories.
+
+             Provisioning RPMs directly from Artifactory to YUM clients.
+
+             Enables high concurrency performance for the software development industry   
+
+             Detailed RPM metadata views from Artifactory's web UI.
+
+              Providing GPG signatures that can be used by the YUM client to authenticate RPM metadata.
+
+Basics :
+
+- File must exist in the /etc/yum.repos.d/ directory
+
+- File must have an extension .repo
+
+- If GPG check is enabled then GPG key must be mentioned
